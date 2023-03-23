@@ -23,7 +23,7 @@ python test.py --name [name_of_experiment] --dataset_mode cityscapes --batchSize
 </pre>
 
 ## Metrics
-The inference time can be observed during testing of the model after each batch total time take for prediction will be printed accordingly, in addition to that to obtain the mean Intersection Over Union and Frechet Inception Distance a simple command can give this figure. There is no need to specify the path of a model or validation data, however, you have to make sure that the infered data is saved in the corresponding folder where data is saved during prediction automatically. 
+The inference time can be observed during testing of the model after each batch total time taken for prediction will be printed accordingly, in addition to that to obtain the mean Intersection Over Union and Frechet Inception Distance a simple command will give you this output. There is no need to specify the path of a model or validation data, however, you have to make sure that the infered data is saved in the corresponding folder where data is saved during prediction automatically. 
 <pre>
 python evaluation.py
 </pre>
