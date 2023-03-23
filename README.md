@@ -22,7 +22,8 @@ After training the model or using the pretrained model test can be run using the
 python test.py --name [name_of_experiment] --dataset_mode cityscapes --batchSize [batch size] --gpu_ids [ids of your gpu]
 </pre>
 
-## The inference time can be observed during testing of the model after each batch total time take for prediction will be printed accordingly, in addition to that to obtain the mean Intersection Over Union and Frechet Inception Distance a simple command can give this figure. There is no need to specify the path of a model or validation data, however, you have to make sure that the infered data is saved in the corresponding folder where data is saved during prediction automatically. 
+## Metrics
+The inference time can be observed during testing of the model after each batch total time take for prediction will be printed accordingly, in addition to that to obtain the mean Intersection Over Union and Frechet Inception Distance a simple command can give this figure. There is no need to specify the path of a model or validation data, however, you have to make sure that the infered data is saved in the corresponding folder where data is saved during prediction automatically. 
 <pre>
 python evaluation.py
 </pre>
