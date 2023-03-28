@@ -33,8 +33,8 @@ python evaluation.py --tru_path [rea image path] --pred_path [generated image pa
 </pre>
 
 ## Additional use of the ASAPNet
-As a research direction this model can be used to do tasks such as image construction problems like image denosing and image deblurring, and we have been experiemnting to do such thing in different setup and the result is not attractive but it can be used as a starting point for further study. We have trained  the model in BSD dataset for denosing https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/ and for debluring the dataset from the link https://drive.google.com/file/d/1liKzdjMRHZ-i5MWhC72EL7UZLNPj5_8Y/view?usp=sharing is used. Weights of the model is provided in the link below so you can validate it by just providing the correct path for you testing dataset.\\
-Denoising weight: https://drive.google.com/file/d/1ucJ3a-W1dSZRXTuOspwm4PnRmXEJl4sC/view?usp=share_link\\
+As a research direction this model can be used to do tasks such as image construction problems like image denosing and image deblurring, and we have been experiemnting to do such thing in different setup and the result is not attractive but it can be used as a starting point for further study. We have trained  the model in BSD dataset for denosing https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/ and for debluring the dataset from the link https://drive.google.com/file/d/1liKzdjMRHZ-i5MWhC72EL7UZLNPj5_8Y/view?usp=sharing is used. Weights of the model is provided in the link below so you can validate it by just providing the correct path for you testing dataset.\
+Denoising weight: https://drive.google.com/file/d/1ucJ3a-W1dSZRXTuOspwm4PnRmXEJl4sC/view?usp=share_link\
 Deblurring weight: https://drive.google.com/file/d/1cjuHW2icnk_cIHXJulJGNvBADI-Z-0J5/view?usp=share_link
 
 <pre>
