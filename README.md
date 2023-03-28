@@ -38,6 +38,6 @@ Denoising weight: https://drive.google.com/file/d/1ucJ3a-W1dSZRXTuOspwm4PnRmXEJl
 Deblurring weight: https://drive.google.com/file/d/1cjuHW2icnk_cIHXJulJGNvBADI-Z-0J5/view?usp=share_link
 
 <pre>
-python Deblurring.py
+python Debluring.py
 python Denoising.py
 </pre>
