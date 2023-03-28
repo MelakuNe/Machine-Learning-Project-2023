@@ -21,3 +21,13 @@ After training the model or using the pretrained model test can be run using the
 <pre>
 python test.py --name [name_of_experiment] --dataset_mode cityscapes --batchSize [batch size] --gpu_ids [ids of your gpu]
 </pre>
+
+## Metrics
+The inference time can be observed during testing of the model after each batch total time taken for prediction will be printed accordingly, in addition to that to obtain the mean Intersection Over Union and Frechet Inception Distance a simple command will give you this output. There is no need to specify the path of a model or validation data, however, you have to make sure that the infered data is saved in the corresponding folder where data is saved during prediction automatically. 
+<pre>
+python evaluation.py
+</pre>
+This evlaution method computes meanIoU and FID from saved images, so if anyone wanted to test this method for some other data you can use the argument to specify the path of the data.
+<pre>
+python evaluation.py --tru_path [rea image path] --pred_path [generated image path] --label_path [mask path]
+</pre>
